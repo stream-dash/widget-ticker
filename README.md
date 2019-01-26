@@ -22,4 +22,4 @@ Text longer than what the box can hold will be displayed in a scrolling marquee 
 
 ## Building
 - Run `npm run build`
-  - Files (bundle.js and image) will be written to `./webpack/dist/`
+  - Files (index.js and image) will be written to `./dist/`
