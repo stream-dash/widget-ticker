@@ -1,0 +1,27 @@
+@import './_vars.scss';
+
+.text {
+  font-family: Arial;
+  height: 100%;
+  width: calc(100% - 0.5em);
+  overflow: hidden;
+
+  &, * {
+    padding: 0;
+    margin: 0;
+  }
+  padding-right: 0.5;
+
+
+  p {
+    white-space: nowrap;
+    font-size: $fontSize;
+    color: $fontColor;
+
+    position: absolute;
+    top: 50%;
+    left: $tickerHeight / 2 + 10px;
+
+    transform: translateY(-50%);
+  }
+}

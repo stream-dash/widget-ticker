@@ -1,0 +1,45 @@
+@import './_vars';
+@import './_spin';
+
+.ticker {
+  height: $tickerHeight;
+
+  * {
+    position: absolute;
+  }
+
+  img {
+    height: 100%;
+
+    z-index: 5;
+
+    animation-name: spinRev;
+
+    animation-duration: $animSpeed;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+
+    &.animated {
+      animation-name: spin;
+    }
+  }
+
+  .infoBox {
+    height: $infoBoxHeight;
+    width: $infoBoxWidth;
+    border: $borderWidth solid #FFFFFF;
+    background: $infoBoxBackground;
+    background-size: $infoBoxWidth $infoBoxHeight;
+    top: 50%;
+    left: $tickerHeight / 2;
+
+    transform: translateY(-50%);
+
+    z-index: 1;
+
+    transition: width 0.5s;
+    transition-delay: $animSpeed / 2;
+
+    overflow: hidden;
+  }
+}
