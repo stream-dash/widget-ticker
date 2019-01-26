@@ -4,8 +4,8 @@
   "description": "A simplified ticker for on-stream information",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --config webpack/webpack.dev.js --mode development",
-    "build": "webpack --config webpack/webpack.prod.js",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,8 +25,11 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "classnames": "^2.2.6",
+    "parcel-bundler": "^1.11.0",
+    "postcss-modules": "^1.4.1",
     "preact": "^8.4.2",
-    "preact-shadow-root": "^1.0.2"
+    "preact-shadow-root": "^1.0.2",
+    "sass": "^1.16.1"
   },
   "dependencies": {
     "quickstring": "^1.0.1"
