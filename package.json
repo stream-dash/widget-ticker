@@ -1,0 +1,23 @@
+{
+  "name": "@streamdash/widget-ticker",
+  "version": "1.0.0",
+  "description": "Ticker widget for live streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/stream-dash/widget-ticker.git"
+  },
+  "keywords": [
+    "stream",
+    "obs",
+    "twitch",
+    "ticker",
+    "info",
+    "preact"
+  ],
+  "author": "Kolya Venturi",
+  "license": "MIT"
+}
