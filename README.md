@@ -14,8 +14,7 @@ Text longer than what the box can hold will be displayed in a scrolling marquee 
 - NodeJS 8+
 
 ## Setup
-- Clone down the entire streamassets repo with `git clone git@github.com:kolyaventuri/streamassets.git`
-- cd into the ticker directory and install packages with `npm i`
+- Install the ticker widget with `npm i @streamdash/widget-ticker`
 
 ## Configuration
 - Set strings you want to use in the `src/strings.json` file
